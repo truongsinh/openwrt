@@ -40,6 +40,7 @@ case "$FIRMWARE" in
 	plasmacloud,pa2200)
 		caldata_extract "0:ART" 0x9000 0x2f20
 		;;
+	glinet,gl-b2200-emmc |\
 	linksys,ea8300 |\
 	linksys,mr8300)
 		caldata_extract "ART" 0x9000 0x2f20
@@ -57,6 +58,7 @@ case "$FIRMWARE" in
 	ezviz,cs-w3-wd1200g-eup |\
 	glinet,gl-ap1300 |\
 	glinet,gl-b1300 |\
+	glinet,gl-b2200-emmc |\
 	glinet,gl-s1300 |\
 	linksys,ea6350v3 |\
 	mobipromo,cm520-79f |\
@@ -170,6 +172,7 @@ case "$FIRMWARE" in
 	ezviz,cs-w3-wd1200g-eup |\
 	glinet,gl-ap1300 |\
 	glinet,gl-b1300 |\
+	glinet,gl-b2200-emmc |\
 	glinet,gl-s1300 |\
 	linksys,ea6350v3 |\
 	mobipromo,cm520-79f |\
