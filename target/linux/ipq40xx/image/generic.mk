@@ -529,8 +529,8 @@ define Device/glinet_gl-b2200
 		pad-to 1024k | append-kernel |\
 		pad-to 33792k | append-rootfs |\
 		append-metadata | gzip
-	DEVICE_PACKAGES := ipq-wifi-glinet_gl-b2200 kmod-fs-ext4 kmod-mmc \
-		kmod-spi-dev mkf2fs e2fsprogs kmod-fs-f2fs
+	DEVICE_PACKAGES := ath10k-firmware-qca9888-ct ipq-wifi-glinet_gl-b2200 \
+		kmod-fs-ext4 kmod-mmc kmod-spi-dev mkf2fs e2fsprogs kmod-fs-f2fs
 endef
 TARGET_DEVICES += glinet_gl-b2200
 
