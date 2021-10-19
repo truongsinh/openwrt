@@ -518,7 +518,7 @@ endef
 TARGET_DEVICES += glinet_gl-b1300
 
 define Device/glinet_gl-b2200
-	$(call Device/FitImage)
+	$(call Device/FitzImage)
 	DEVICE_VENDOR := GL.iNet
 	DEVICE_MODEL := GL-B2200
 	SOC := qcom-ipq4019
